@@ -26,6 +26,14 @@ This plugin adds two new commands to provide feedback to the last prompt / respo
  llm feedback-1 "not helplful. too lengthy."
  ```
 
+### Options
+
+ * `-d, --database PATH`: Specify a custom path to the logs database instead of the default LLM logs.db location.
+
+ ```sh
+ llm feedback+1 -d /path/to/logs.db "great response"
+ ```
+
 ## Development
 
 see [development.md](development.md)
